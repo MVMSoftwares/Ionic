@@ -1,17 +1,30 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+<ion-header  style="background-color:#3b5598;">
+  <ion-grid style="margin-left:17px">  
+      <ion-row>
+        <ion-col>  
+            <ion-button color="none">
+            <ion-icon color="light" name="newspaper-outline" ></ion-icon>
+            </ion-button>
+        </ion-col>
+
+        <ion-col>  
+          <ion-button color="none">
+          <ion-icon color="light" name="chatbubble-ellipses-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        
+        <ion-col>
+          <ion-button color="none">
+            <ion-icon color="light" name="notifications-outline">     
+            </ion-icon>
+            </ion-button>
+        </ion-col>
+        
+        <ion-col>
+            <ion-button color="none">
+              <ion-icon  color="light" name="add-circle-outline"></ion-icon>
+            </ion-button>
+          </ion-col>  
+      </ion-row>
+    </ion-grid>
 </ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
